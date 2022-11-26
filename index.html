@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="box">
+        <h1>My Tasks</h1>
+        <p class="counter"><span id="count">0</span> Tasks</p>
+        <div class="input-wrapper">
+            <input type="text" id="inputTodo" class="text-input" placeholder="Enter daily task...." />
+            <button type="button" onclick="handleTodo()" class="btn-todo">+</button>
+            <p id="error" class="error" style="display: none;">Please enter valid input</p>
+        </div>
+        <ul id="todoList" class="todo-list"></ul>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
